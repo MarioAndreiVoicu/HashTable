@@ -1,0 +1,18 @@
+﻿  HashTable.cpp
+E:\Visual Studio\Projects\HashTable\HashTable\HashTable.cpp(7,9): warning C4101: 'key': unreferenced local variable
+E:\Visual Studio\Projects\HashTable\HashTable\HashTable.h(37,77): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'HashTable.cpp')
+  E:\Visual Studio\Projects\HashTable\HashTable\HashTable.h(37,77):
+  the template instantiation context (the oldest one first) is
+  	E:\Visual Studio\Projects\HashTable\HashTable\HashTable.cpp(5,33):
+  	see reference to class template instantiation 'HashTable<int,std::string,std::hash<int>>' being compiled
+  	E:\Visual Studio\Projects\HashTable\HashTable\HashTable.h(36,5):
+  	while compiling class template member function 'HashTable<int,std::string,std::hash<int>>::HashTable(float,const Hash &,size_t)'
+          with
+          [
+              Hash=std::hash<int>
+          ]
+  		E:\Visual Studio\Projects\HashTable\HashTable\HashTable.cpp(5,33):
+  		see the first reference to 'HashTable<int,std::string,std::hash<int>>::HashTable' in 'main'
+  
+  HashTable.vcxproj -> E:\Visual Studio\Projects\HashTable\x64\Debug\HashTable.exe
